@@ -5,7 +5,7 @@ var db;
 var mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 // Connection URL
-const url = 'mongodb+srv://manjudb:manju7@1@cluster0-ace2v.mongodb.net/test?retryWrites=true&w=majority';
+const url = 'mongodb+srv://<db_name>:<password>@cluster0-ace2v.mongodb.net/test?retryWrites=true&w=majority';
 // Database Name
 const dbName = 'manjudb';
 // Use connect method to connect to the server
